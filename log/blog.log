@@ -1,0 +1,553 @@
+2023-09-08T15:39:55.378+03:00  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T15:39:55.380+03:00  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T15:39:55.422+03:00  INFO 17748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-08T15:39:55.422+03:00  INFO 17748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-08T15:39:56.447+03:00  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T15:39:56.465+03:00  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-09-08T15:39:57.081+03:00  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T15:39:57.089+03:00  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T15:39:57.090+03:00  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T15:39:57.149+03:00  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T15:39:57.149+03:00  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1724 ms
+2023-09-08T15:39:57.244+03:00  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-08T15:39:57.574+03:00  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T15:39:57.577+03:00  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-08T15:39:57.593+03:00  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T15:39:57.681+03:00 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T15:39:57.681+03:00 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T15:39:58.299+03:00  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T15:39:58.796+03:00  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T15:39:58.976+03:00  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T15:39:59.226+03:00 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T15:39:59.312+03:00  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T15:39:59.500+03:00 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T15:40:00.221+03:00 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T15:40:00.243+03:00 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T15:40:00.314+03:00  WARN 17748 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-09-08T15:40:01.165+03:00  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T15:40:01.171+03:00  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T15:40:01.318+03:00  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T15:40:01.340+03:00  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 6.425 seconds (process running for 10.901)
+2023-09-08T15:40:03.608+03:00  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-08T15:40:03.623+03:00  INFO 17748 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T15:40:03.640+03:00  INFO 17748 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T15:40:03.645+03:00  INFO 17748 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-08T15:40:03.657+03:00  INFO 17748 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-08T18:10:03.779+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T18:10:03.779+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T18:10:04.509+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T18:10:04.512+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-09-08T18:10:04.717+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T18:10:04.718+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T18:10:04.719+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T18:10:04.756+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T18:10:04.757+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2023-09-08T18:10:04.804+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-08T18:10:04.829+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T18:10:04.830+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-08T18:10:04.831+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T18:10:04.861+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T18:10:04.862+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T18:10:04.902+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T18:10:04.922+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T18:10:04.976+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T18:10:05.045+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T18:10:05.053+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T18:10:05.074+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T18:10:05.496+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T18:10:05.503+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T18:10:05.707+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T18:10:05.712+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T18:10:05.748+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T18:10:05.758+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 2.036 seconds (process running for 15.319)
+2023-09-08T18:10:05.763+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T18:10:26.468+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T18:10:26.475+05:30  INFO 17748 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T18:10:26.480+05:30  INFO 17748 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T18:10:26.481+05:30  INFO 17748 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-08T18:10:26.487+05:30  INFO 17748 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-08T18:10:26.553+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T18:10:26.554+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T18:10:26.871+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T18:10:26.872+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T18:10:26.955+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T18:10:26.955+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T18:10:26.955+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T18:10:26.977+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T18:10:26.977+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 421 ms
+2023-09-08T18:10:26.999+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-08T18:10:27.014+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T18:10:27.015+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-08T18:10:27.015+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T18:10:27.033+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T18:10:27.033+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T18:10:27.053+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T18:10:27.063+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T18:10:27.105+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T18:10:27.143+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T18:10:27.147+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T18:10:27.161+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T18:10:27.461+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T18:10:27.465+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T18:10:27.588+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T18:10:27.590+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T18:10:27.612+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T18:10:27.620+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.098 seconds (process running for 37.181)
+2023-09-08T18:10:27.622+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T18:11:10.840+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T18:11:10.847+05:30  INFO 17748 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T18:11:10.850+05:30  INFO 17748 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T18:11:10.851+05:30  INFO 17748 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-09-08T18:11:10.855+05:30  INFO 17748 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-09-08T18:11:10.921+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T18:11:10.922+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T18:11:11.219+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T18:11:11.220+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T18:11:11.303+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T18:11:11.304+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T18:11:11.304+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T18:11:11.330+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T18:11:11.331+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2023-09-08T18:11:11.351+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-08T18:11:11.368+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T18:11:11.368+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-08T18:11:11.368+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T18:11:11.382+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T18:11:11.383+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T18:11:11.401+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T18:11:11.409+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T18:11:11.449+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T18:11:11.485+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T18:11:11.490+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T18:11:11.500+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T18:11:11.790+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T18:11:11.795+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T18:11:11.923+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T18:11:11.926+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T18:11:11.946+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T18:11:11.954+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.067 seconds (process running for 81.516)
+2023-09-08T18:11:11.956+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T18:11:26.739+05:30  INFO 17748 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-08T18:11:26.739+05:30  INFO 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-08T18:11:26.740+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-08T18:11:26.740+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-08T18:11:26.740+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-08T18:11:26.741+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a96be07
+2023-09-08T18:11:26.741+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@666d03bc
+2023-09-08T18:11:26.741+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-08T18:11:26.741+05:30  INFO 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-08T18:11:26.759+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-09-08T18:11:26.814+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-09-08T18:11:27.043+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:11:27.077+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-09-08T18:11:27.077+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-09-08T18:11:27.081+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:11:27.081+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:11:27.092+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:11:27.092+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:11:27.513+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:11:27.514+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:11:27.516+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:11:27.516+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:11:27.519+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:11:27.522+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:11:27.543+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:11:27.545+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:11:27 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:11:27.580+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:11:27.581+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:11:27.581+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:11:27.582+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:11:27.583+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:11:27.583+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:11:27.584+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:11:27.585+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2023-09-08T18:11:27.587+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:11:27 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:11:27.588+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:11:28.566+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:11:28.566+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:11:28.567+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:11:28.567+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:11:28.568+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:11:28.568+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:11:28.569+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:11:28.569+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:11:28 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:11:28.570+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:27.190+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-09-08T18:59:27.192+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-09-08T18:59:27.199+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:27.233+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-09-08T18:59:27.233+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-09-08T18:59:27.234+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:27.234+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:27.237+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:27.238+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:27.371+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:27.372+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:27.374+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:27.374+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:27.375+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:27.375+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:27.376+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:27.377+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:27 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:27.378+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:28.383+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:28.384+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:28.385+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:28.385+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:28.386+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:28.386+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:28.387+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:28.388+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:28 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:28.389+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:28.704+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-09-08T18:59:28.705+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-09-08T18:59:28.721+05:30 DEBUG 17748 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:28.744+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-09-08T18:59:28.744+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-09-08T18:59:28.745+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:28.745+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:28.749+05:30 DEBUG 17748 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:28.749+05:30 DEBUG 17748 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:28.818+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:28.818+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:28.819+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:28.819+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:28.820+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:28.820+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:28.821+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:28.821+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:28 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:28.821+05:30 DEBUG 17748 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:29.829+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:29.830+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:29.830+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:29.830+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:29.831+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:29.831+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:29.832+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:29.832+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:29 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:29.832+05:30 DEBUG 17748 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:41.767+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-09-08T18:59:41.768+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-09-08T18:59:41.781+05:30 DEBUG 17748 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:41.801+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-09-08T18:59:41.801+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-09-08T18:59:41.801+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:41.801+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:41.804+05:30 DEBUG 17748 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:41.804+05:30 DEBUG 17748 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-08T18:59:41.885+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:41.885+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:41.887+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:41.887+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:41.887+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:41.888+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:41.888+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:41.889+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:41 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:41.889+05:30 DEBUG 17748 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T18:59:42.901+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-09-08T18:59:42.901+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-08T18:59:42.902+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-09-08T18:59:42.902+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-09-08T18:59:42.903+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-09-08T18:59:42.903+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-08T18:59:42.903+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-08T18:59:42.904+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Sep 08 18:59:42 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-09-08T18:59:42.904+05:30 DEBUG 17748 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-09-08T19:27:57.399+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-08T19:27:57.406+05:30  INFO 17748 --- [Thread-16] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:27:57.407+05:30  INFO 17748 --- [Thread-16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-08T19:27:57.410+05:30  INFO 17748 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:27:57.410+05:30  INFO 17748 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-08T19:27:57.421+05:30  INFO 17748 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-08T19:27:57.485+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:27:57.485+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:27:57.820+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:27:57.822+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:27:57.915+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:27:57.917+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:27:57.917+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:27:57.946+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:27:57.946+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 459 ms
+2023-09-08T19:27:57.984+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-08T19:27:58.000+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn60: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:27:58.000+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-08T19:27:58.000+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:27:58.016+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:27:58.016+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:27:58.040+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:27:58.050+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:27:58.088+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:27:58.130+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:27:58.139+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:27:58.153+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:27:58.426+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:27:58.432+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:27:58.578+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:27:58.585+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:27:58.607+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:27:58.615+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.154 seconds (process running for 4688.176)
+2023-09-08T19:27:58.617+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:31:11.975+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-08T19:31:11.984+05:30  INFO 17748 --- [Thread-20] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:31:11.988+05:30  INFO 17748 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:31:11.990+05:30  INFO 17748 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-08T19:31:12.000+05:30  INFO 17748 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-08T19:31:12.077+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:31:12.078+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:31:12.476+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:31:12.477+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:31:12.588+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:31:12.589+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:31:12.589+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:31:12.615+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:31:12.616+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2023-09-08T19:31:12.643+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-09-08T19:31:12.660+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn70: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:31:12.661+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-09-08T19:31:12.661+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:31:12.681+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:31:12.681+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:31:12.710+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:31:12.724+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:31:12.763+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:31:12.806+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:31:12.811+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:31:12.824+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:31:13.104+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:31:13.108+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:31:13.244+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:31:13.247+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:31:13.269+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:31:13.278+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.225 seconds (process running for 4882.839)
+2023-09-08T19:31:13.280+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:33:12.348+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T19:33:12.355+05:30  INFO 17748 --- [Thread-24] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:33:12.359+05:30  INFO 17748 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:33:12.360+05:30  INFO 17748 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-09-08T19:33:12.370+05:30  INFO 17748 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-09-08T19:33:12.459+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:33:12.459+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:33:12.936+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:33:12.937+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:33:13.096+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:33:13.096+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:33:13.096+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:33:13.118+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:33:13.119+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 657 ms
+2023-09-08T19:33:13.149+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-09-08T19:33:13.170+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn80: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:33:13.170+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-09-08T19:33:13.171+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:33:13.192+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:33:13.192+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:33:13.215+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:33:13.227+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:33:13.264+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:33:13.304+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:33:13.309+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:33:13.324+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:33:13.621+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:33:13.627+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:33:13.759+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:33:13.762+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:33:13.783+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:33:13.793+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.377 seconds (process running for 5003.354)
+2023-09-08T19:33:13.795+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:33:56.658+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-08T19:33:56.665+05:30  INFO 17748 --- [Thread-28] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:33:56.669+05:30  INFO 17748 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:33:56.669+05:30  INFO 17748 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-09-08T19:33:56.677+05:30  INFO 17748 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-09-08T19:33:56.738+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:33:56.738+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:33:57.070+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:33:57.072+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:33:57.217+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:33:57.217+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:33:57.217+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:33:57.244+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:33:57.244+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 504 ms
+2023-09-08T19:33:57.282+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-09-08T19:33:57.303+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn90: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:33:57.303+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-09-08T19:33:57.303+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:33:57.325+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:33:57.325+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:33:57.348+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:33:57.358+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:33:57.397+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:33:57.439+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:33:57.443+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:33:57.459+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:33:57.796+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:33:57.800+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:33:57.914+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:33:57.917+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:33:57.937+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:33:57.945+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.229 seconds (process running for 5047.506)
+2023-09-08T19:33:57.947+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:38:29.380+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-09-08T19:38:29.388+05:30  INFO 17748 --- [Thread-32] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:38:29.391+05:30  INFO 17748 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:38:29.392+05:30  INFO 17748 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-09-08T19:38:29.399+05:30  INFO 17748 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-09-08T19:38:29.492+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:38:29.492+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:38:29.885+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:38:29.887+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:38:30.047+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:38:30.047+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:38:30.047+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:38:30.071+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:38:30.071+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+2023-09-08T19:38:30.096+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-09-08T19:38:30.112+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn100: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:38:30.112+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-09-08T19:38:30.112+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:38:30.129+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:38:30.129+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:38:30.153+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:38:30.164+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:38:30.232+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:38:30.273+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:38:30.278+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:38:30.294+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:38:30.606+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:38:30.610+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:38:30.727+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:38:30.730+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:38:30.755+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:38:30.763+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.316 seconds (process running for 5320.324)
+2023-09-08T19:38:30.765+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:38:32.163+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-08T19:38:32.171+05:30  INFO 17748 --- [Thread-36] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:38:32.174+05:30  INFO 17748 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:38:32.175+05:30  INFO 17748 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-09-08T19:38:32.183+05:30  INFO 17748 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-09-08T19:38:32.247+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:38:32.247+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:38:32.531+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:38:32.532+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:38:32.611+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:38:32.611+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:38:32.611+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:38:32.630+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:38:32.630+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 381 ms
+2023-09-08T19:38:32.651+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2023-09-08T19:38:32.665+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn110: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:38:32.665+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2023-09-08T19:38:32.665+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:38:32.680+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:38:32.680+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:38:32.699+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:38:32.707+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:38:32.740+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:38:32.777+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:38:32.781+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:38:32.792+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:38:33.042+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:38:33.046+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:38:33.146+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:38:33.148+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:38:33.174+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:38:33.182+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 0.956 seconds (process running for 5322.743)
+2023-09-08T19:38:33.184+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:39:55.821+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T19:39:55.828+05:30  INFO 17748 --- [Thread-40] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:39:55.831+05:30  INFO 17748 --- [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:39:55.832+05:30  INFO 17748 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2023-09-08T19:39:55.841+05:30  INFO 17748 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2023-09-08T19:39:55.907+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:39:55.907+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:39:56.194+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:39:56.195+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:39:56.313+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:39:56.313+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:39:56.313+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:39:56.332+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:39:56.333+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 424 ms
+2023-09-08T19:39:56.355+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-09-08T19:39:56.370+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn120: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:39:56.370+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-09-08T19:39:56.370+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:39:56.386+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:39:56.386+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:39:56.406+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:39:56.419+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:39:56.454+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:39:56.489+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:39:56.494+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:39:56.507+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:39:56.769+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:39:56.774+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:39:56.927+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:39:56.931+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:39:56.955+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:39:56.965+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.086 seconds (process running for 5406.526)
+2023-09-08T19:39:56.968+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:45:51.744+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T19:45:51.752+05:30  INFO 17748 --- [Thread-44] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:45:51.756+05:30  INFO 17748 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:45:51.757+05:30  INFO 17748 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2023-09-08T19:45:51.767+05:30  INFO 17748 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2023-09-08T19:45:51.893+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:45:51.894+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:45:52.254+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:45:52.255+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:45:52.357+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:45:52.357+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:45:52.357+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:45:52.376+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:45:52.376+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
+2023-09-08T19:45:52.397+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2023-09-08T19:45:52.411+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn130: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:45:52.411+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2023-09-08T19:45:52.411+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:45:52.426+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:45:52.426+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:45:52.444+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:45:52.454+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:45:52.486+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:45:52.518+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:45:52.522+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:45:52.534+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:45:52.847+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:45:52.852+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:45:52.962+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:45:52.964+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:45:52.988+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:45:52.997+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.167 seconds (process running for 5762.558)
+2023-09-08T19:45:52.998+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-08T19:46:12.632+05:30  INFO 17748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-08T19:46:12.638+05:30  INFO 17748 --- [Thread-48] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-08T19:46:12.641+05:30  INFO 17748 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:46:12.642+05:30  INFO 17748 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2023-09-08T19:46:12.646+05:30  INFO 17748 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2023-09-08T19:46:12.711+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Starting TechCareerFullStack2Application using Java 17.0.8.1 with PID 17748 (C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2\target\classes started by Betül NR in C:\Users\betna\Desktop\java-klon\projem\TechCareer_FullStack_2)
+2023-09-08T19:46:12.712+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : The following 1 profile is active: "frontend"
+2023-09-08T19:46:12.984+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-08T19:46:12.985+05:30  INFO 17748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-08T19:46:13.093+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-09-08T19:46:13.094+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-08T19:46:13.094+05:30  INFO 17748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-08T19:46:13.112+05:30  INFO 17748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-08T19:46:13.112+05:30  INFO 17748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 399 ms
+2023-09-08T19:46:13.136+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2023-09-08T19:46:13.150+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn140: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-09-08T19:46:13.150+05:30  INFO 17748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2023-09-08T19:46:13.150+05:30  INFO 17748 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-09-08T19:46:13.165+05:30 DEBUG 17748 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-09-08T19:46:13.165+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-09-08T19:46:13.183+05:30  INFO 17748 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-08T19:46:13.192+05:30  INFO 17748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-08T19:46:13.223+05:30  WARN 17748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-08T19:46:13.254+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-08T19:46:13.259+05:30  INFO 17748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-08T19:46:13.269+05:30 DEBUG 17748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-09-08T19:46:13.543+05:30 DEBUG 17748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-09-08T19:46:13.547+05:30 DEBUG 17748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-08T19:46:13.653+05:30  INFO 17748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-08T19:46:13.656+05:30  INFO 17748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-08T19:46:13.681+05:30  INFO 17748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-09-08T19:46:13.689+05:30  INFO 17748 --- [restartedMain] c.h.TechCareerFullStack2Application      : Started TechCareerFullStack2Application in 1.007 seconds (process running for 5783.25)
+2023-09-08T19:46:13.691+05:30  INFO 17748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
