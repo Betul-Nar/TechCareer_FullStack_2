@@ -12,7 +12,7 @@ public class CommandLineRunnerBean {
     @Bean
     public CommandLineRunner commandLineRunnerMethod(){
         return args -> {
-            log.info("Data set hazırlandı");
+            log.info("Data set ");
             System.out.println("Data set hazırlandı");
 
         };//retur bitti
